@@ -1,6 +1,7 @@
-import './ProductoCard.css'
+import './ProductoCard.css';
 import { useState } from 'react';
 import { useCart } from '../../../../context/CartContext.jsx';
+import { Link } from 'react-router-dom'; // 👈 importante
 
 const ProductoCard = (props) => {
     const { addItem } = useCart();
@@ -13,7 +14,6 @@ const ProductoCard = (props) => {
     };
 
     const handleConfirm = () => {
-        
         const product = {
             id: props.id,
             name: props.name,
@@ -24,19 +24,19 @@ const ProductoCard = (props) => {
         setShowMenu(false);
     };
 
-    return(
+    return (
         <article className="producto-card">
             <div className="card-content">
-                <a href={`productos/${props.id}`} className="image-link">
+                <Link to={`/productos/${props.id}`} className="image-link">
                     <img 
                         src={props.img} 
                         alt={props.name} 
                         className="product-image"
                     />
-                </a>
+                </Link>
                 <div className="text-content">
                     <h3 className="product-title">
-                        <a href={`productos/${props.id}`}>{props.name}</a>
+                        <Link to={`/productos/${props.id}`}>{props.name}</Link>
                     </h3>
                     <p className="product-category">{props.category}</p>
                     <div className="price-container">
