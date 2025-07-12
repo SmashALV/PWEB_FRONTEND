@@ -10,7 +10,7 @@ const NewSeries = () => {
           <h3>Limpieza</h3>
           <img
             className="new-series-image"
-            src="public/img/composicion-botellas-color-detergente-imagenes-realistas-botellas-colores-llenas-jabon-lavar-sombras_1284-33064.jpg.avif"
+            src="/img/composicion-botellas-color-detergente-imagenes-realistas-botellas-colores-llenas-jabon-lavar-sombras_1284-33064.jpg.avif"
             alt="Limpieza"
           />
           <p>
@@ -21,7 +21,7 @@ const NewSeries = () => {
           <h3>Aseo personal</h3>
           <img
             className="new-series-image"
-            src="public/img/depositphotos_9155074-stock-photo-assorted-toiletries.jpg"
+            src="/img/depositphotos_9155074-stock-photo-assorted-toiletries.jpg"
             alt="Aseo personal"
           />
           <p>
@@ -32,7 +32,7 @@ const NewSeries = () => {
           <h3>Artefactos</h3>
           <img
             className="new-series-image"
-            src="public/img/GettyImages-513631128-compressed-1024x768.jpg"
+            src="/img/GettyImages-513631128-compressed-1024x768.jpg"
             alt="Artefactos"
           />
           <p>
