@@ -5,14 +5,14 @@ const Footer = () => {
     <footer>
       <div>
         <h4>Síguenos</h4>
-        <img className='small' src="public/img/fb_icon_white.svg" alt="" />
-            <img className='small' src="public/img/x_icon_white.svg" alt="" />
-            <img className='small' src="public/img/ig_icon_white.svg" alt="" />
-            <img className='small'src="public/img/yt_icon_white.svg" alt="" /> 
+        <img className='small' src="/img/fb_icon_white.svg" alt="Facebook" />
+        <img className='small' src="/img/x_icon_white.svg" alt="X" />
+        <img className='small' src="/img/ig_icon_white.svg" alt="Instagram" />
+        <img className='small' src="/img/yt_icon_white.svg" alt="YouTube" />
       </div>
       <div>
         <h4>Nosotros</h4>
-        <p><a href="conocenos">Conócenos</a> </p> 
+        <p><a href="conocenos">Conócenos</a></p>
         <p>Responsabilidad social</p>
         <p>Nuestros tiendas</p>
       </div>
@@ -30,5 +30,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
+
 export default Footer;
