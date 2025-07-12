@@ -32,7 +32,7 @@ const Productos = () => {
 
     useEffect(() => {
         // Obtener productos del backend al montar el componente
-        fetch('http://localhost:3001/productos')
+        fetch('https://backend-cloud-5bym.onrender.com/productos')
             .then(res => res.json())
             .then(data => setProductos(data))
             .catch(err => console.error('Error al obtener productos:', err));

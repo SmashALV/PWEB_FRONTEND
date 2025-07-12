@@ -39,7 +39,7 @@ const Registrarse = () => {
         if (!valid) return;
 
         // Migración: Enviar usuario al backend
-        fetch('http://localhost:3001/users', {
+        fetch('https://backend-cloud-5bym.onrender.com/users', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
